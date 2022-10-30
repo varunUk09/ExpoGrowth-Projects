@@ -1,0 +1,35 @@
+/*mobile view*/
+@media screen and (max-width: 767px) {
+    div.product__brand_promo img {
+        width: 85px;
+        margin-bottom: 16px;
+    }
+
+    div.product__brand_promo + h1 {
+        font-size: 19px;
+        margin: 0;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    div.product__brand_promo + h1.name + div.sku {
+        display: flex;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    div.product__brand_promo + h1 + div.sku>span.part_number {
+        margin-right: 0;
+        margin-left: 13px;
+        padding-left: 13px;
+        border-left: 1px solid;
+    }
+
+    div.container.main__inner-wrapper div:nth-child(4){
+        margin-block: 10px !important;
+    }
+
+    div.product__brand_promo div.product-promotion{
+    	display: none;
+    }
+}

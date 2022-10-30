@@ -1,0 +1,56 @@
+.eg-trust-logos {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 36px;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	gap: 30px;
+}
+
+.eg-trust-logos > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.eg-trust-logos > div >img.logo {
+	display: block;
+	object-fit: contain;
+	filter:brightness(0);
+	max-width: 100% !important;
+	width: 100% !important;
+	height: 66px;
+}
+
+.eg-trust-logos > div >img.logo:hover {
+	filter: grayscale(0) !important;
+	opacity: 1 !important;
+}
+
+/* setting up some logos */
+.eg-trust-logos > div:nth-child(3) >img {
+	height: 56px;
+}
+
+.eg-trust-logos > div:nth-child(5) >img {
+	height: 46px;
+}
+
+.eg-trust-logos > div:nth-child(6) >img {
+	object-position: 50% 82%;
+}
+
+.eg-trust-title h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+@media(max-width:768px) {
+	.eg-trust-logos > div {
+		min-width: 50px;
+		max-width: 70px;
+	}
+
+}

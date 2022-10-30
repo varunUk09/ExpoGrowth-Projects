@@ -1,0 +1,81 @@
+section.eg-benifit-box__section {
+    background-image: url("https://static.bbus-static.com/shain/v1/dataservice/ResizeImage/$value?Format=jpg&Quality=85&Width=768&Height=256&ImageUrl=312177.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.eg-benifit-box__container, .eg-benifit-box__logo, .eg-benifit-box__cta {
+    width: 100%;
+}
+
+.eg-benifit-box__container {
+    background-color: #08101d;
+    max-width: 465px;
+    margin: 24px 20px;
+    padding: 30px 12px;
+    font-family: museo-sans, sans-serif !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eg-benifit-box__container > h2.eg-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.eg-benifit-box__container > p.eg-benifits {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    max-width: 365px;
+}
+
+.eg-benifit-box__cta {
+    display: block;
+    background: linear-gradient(to bottom, #6bc6d6, #59b2c6);
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    text-decoration: none !important;
+    max-width: 260px;
+}
+
+.eg-benifit-box__container > small.eg-offer {
+    font-weight: 100;
+    font-size: 9.5px;
+    line-height: 1.6;
+}
+
+.eg-benifit-box__logo {
+    max-width: 170px;
+    margin-top: 18px;
+    display: block;
+}
+
+@media(max-width:767px) {
+    section.eg-benifit-box__section {
+        max-width: 400px;
+        margin: 30px auto 0 auto;
+    }
+
+    .eg-benifit-box__container {
+        margin: 50px 20px;
+        background-color: #011d28;
+    }
+
+    .eg-benifit-box__container > p br {
+        display: none;
+    }
+
+}

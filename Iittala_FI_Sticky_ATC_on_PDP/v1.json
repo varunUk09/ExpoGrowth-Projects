@@ -1,0 +1,11 @@
+{
+    "files": [
+        "./variation1/variation.css",
+        "./variation1/variation.js"
+    ],
+
+    "urls": ["https://www.iittala.com/fi-fi/kattaus/kaikki-kattauksen-tuotteet/kattamisen-tuotteet/oiva-toikka-kokoelma-muki-03l-frutta-musta-1062499",
+        "https://www.iittala.com/fi-fi"
+    ],
+    "inject": ""
+}

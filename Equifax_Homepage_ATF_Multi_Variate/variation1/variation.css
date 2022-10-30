@@ -1,0 +1,44 @@
+div.eg-usp {
+    margin-top: 30px;
+    width: max-content;
+}
+
+div.eg-usp ul li {
+    display: flex;
+    color: white;
+    gap: 12px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+    align-items: center;
+}
+
+div.eg-usp ul li .eg-check-icon {
+    display: grid;
+    place-items: center;
+}
+
+div.eg-usp ul li+li {
+    margin-top: 8px;
+}
+
+div.eg-usp svg {
+    fill: #008ad3;
+}
+
+@media screen and (max-width: 767px) {
+    div.eg-usp {
+        margin-inline: 20px;
+        max-width: fit-content;
+        width: 100%;
+    }
+
+    div.eg-usp ul li {
+        gap: 22px;
+    }
+
+    .header-wrapper {
+        background-position: left;
+    }
+}

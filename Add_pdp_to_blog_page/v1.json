@@ -1,0 +1,9 @@
+{
+    "files": [
+        "./variationB/variation.css",
+        "./variationB/variation.js"
+    ],
+
+    "urls": ["https://www.bob-lemenuisier.fr/blog/quelles-sont-les-reglementations-et-normes-pour-un-escalier"],
+    "inject": ""
+}

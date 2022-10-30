@@ -1,0 +1,13 @@
+@media(max-width:767px) {
+	#prodSelecMob > div .product-tile:nth-child(9) ~ .product-tile {
+		display: none !important;
+	}
+
+}
+
+@media(min-width:768px) {
+	#prodSelecDesktop > div .product-tile:nth-child(9) ~ .product-tile {
+		display: none !important;
+	}
+
+}

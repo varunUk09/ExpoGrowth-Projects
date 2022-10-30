@@ -1,0 +1,123 @@
+.eg-learnmore {
+    display: flex;
+    gap: 2px;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    width: max-content;
+    align-items: center;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+}
+
+.eg-learnmore > svg {
+    fill: currentColor !important;
+}
+
+input[name="eg-accordian"] {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .flush-top .wrapper.rhythm--default .carousel--rotator {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .flush-top .flickity-button {
+        background: #000000 !important;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tabs {
+        width: 35%;
+        order: -1;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__container {
+        width: 65%;
+    }
+
+    .carousel--rotator .carousel__cell {
+        max-width: 90% !important
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tabs .list {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0px;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tab:not(.active) .button {
+        display: none;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tab>div {
+        max-width: 346px;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tab {
+        padding-top: 20px !important;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .flickity-enabled.is-draggable .flickity-viewport {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .flickity-enabled.is-draggable .flickity-viewport::-webkit-scrollbar {
+        display: none;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator>div:last-child {
+        width: 100%;
+    }
+
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tab {
+        position: relative;
+    }
+
+    /*hiding the default learn more btn*/
+    .flush-top .wrapper.rhythm--default .carousel--rotator .carousel__tab > div > a:nth-last-child(1) {
+        display: none !important;
+    }
+
+    /* toggling accordian */
+    label.eg-btn-icons {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    input[name="eg-accordian"]:checked + label.eg-btn-icons + p {
+        display: block;
+    }
+
+    input[name="eg-accordian"]:checked + label.eg-btn-icons > svg.eg-plus-icon {
+        display: none;
+    }
+
+    input[name="eg-accordian"]:checked + label.eg-btn-icons > svg.eg-minus-icon {
+        display: block;
+    }
+
+    label.eg-btn-icons > svg {
+        width: 100%;
+        fill: #009cde;
+    }
+
+    .eg-minus-icon {
+        display: none;
+    }
+
+    /* toggling accordian close */
+}
+
+/*mobile view*/
+@media screen and (max-width:768px) {
+    label.eg-btn-icons {
+        display: none;
+    }
+
+}

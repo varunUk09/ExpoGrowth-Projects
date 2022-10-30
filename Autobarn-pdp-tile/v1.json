@@ -1,0 +1,9 @@
+{
+    "files": [
+        "./variation1/variation.css",
+        "./variation1/variation.js"
+    ],
+
+    "urls": ["https://autobarn.com.au/ab/Autobarn-Category/Shop-our-Full-Ranges-by-Brand-%7C-Autobarn/Vyking-Force/Vyking-Force-1450PSI-Electric-Pressure-Washer---VF1450B/p/TO33827"],
+    "inject": ""
+}

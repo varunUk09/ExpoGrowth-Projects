@@ -1,0 +1,12 @@
+{
+    "files": [
+        "./variationB/variation.css",
+        "./variationB/variation.js"
+    ],
+
+    "urls": ["https://www.yankeecandle.com/yankee-candle/candles/3-wick-candles/spiced-pumpkin/ORCL_1726324.html",
+        "https://www.yankeecandle.com/yankee-candle/"
+
+    ],
+    "inject": ""
+}

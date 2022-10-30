@@ -1,0 +1,90 @@
+.row.px-2 > div:nth-last-child(-n+3) {
+	display: none;
+}
+
+#prodSelecMob {
+	display: none;
+}
+
+div.yankee-pdp-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.yankee-pdp-wrapper > div {
+	padding: 0 !important;
+	max-height: 133px !important;
+}
+
+div.yankee-pdp-wrapper > div:focus-visible {
+	border: none;
+}
+
+div.yankee-pdp-wrapper > div > div > div {
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: unset !important;
+	height: initial !important;
+	min-height: initial !important;
+	text-align: center;
+}
+
+div.yankee-pdp-wrapper > div > div > div a.product-tile-link:hover {
+	border-radius: inherit !important;
+	border-width: 0.1rem !important;
+}
+
+/*hiding all unnesessary divs*/
+div.yankee-pdp-wrapper > div > div > div > div.tile-body.product-tile-addtocart > div:nth-last-child(-n+10) {
+	display: none;
+}
+
+/*hiding star rating div*/
+div.yankee-pdp-wrapper > div > div > div > div.tile-body.product-tile-addtocart > div:first-child {
+	display: none;
+}
+
+div.yankee-pdp-wrapper > div > div > div > div.tile-body.product-tile-addtocart {
+	padding: 0.3rem !important;
+}
+
+div.yankee-pdp-wrapper > div > div > div > div.tile-body.product-tile-addtocart > .pdp-link > .link {
+	font-size: 0.75rem;
+	font-weight: 800;
+	text-align: center;
+	word-break: break-word;
+	overflow-wrap: break-word;
+}
+
+div.yankee-pdp-wrapper > div > div > div > div.tile-body.product-tile-addtocart > .pdp-link {
+	padding-top: .1rem !important;
+	min-height: 1.3rem !important;
+}
+
+/*hiding best seller tag*/
+div.yankee-pdp-wrapper > div > div > div > div.image-container > span.badge {
+	display: none;
+}
+
+div.yankee-pdp-wrapper > div > div > div > div.image-container > .tile-image {
+	padding: 0 !important;
+	max-width: 130px;
+	width: 80%;
+}
+
+/*mobile devices*/
+@media(max-width:767px) {
+	div.yankee-pdp-wrapper > div {
+		max-height: max-content !important;
+		max-width: 33.3333% !important;
+	}
+
+}
+
+@media(max-width:576px) {
+	div.yankee-pdp-wrapper > div > div > div > div.image-container > .tile-image {
+		width: 70%;
+	}
+
+}

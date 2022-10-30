@@ -1,0 +1,1120 @@
+.customised-collections.slick-slide .product-info > p:last-child {
+  display: none;
+}
+
+.wine-plans .plan-tiles .row .col.chairman .front .product-info {
+  background-color: rgb(62 54 33 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.winemaker .front .product-info {
+  background-color: rgb(131 11 44 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.sparkling .front .product-info {
+  background-color: rgb(81 195 197 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.varietal .front .product-info {
+  background-color: rgb(202 82 30 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.entertainer .front .product-info {
+  background-color: rgb(119 134 55 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.organic .front .product-info {
+  background-color: rgb(150 155 119 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.hunter .front .product-info {
+  background-color: rgb(102 112 87 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.australia .front .product-info {
+  background-color: rgb(89 123 124 / 10%);
+}
+
+.wine-plans .plan-tiles .row .col.regional .front .product-info {
+  background-color: rgba(195, 149, 26, 0.1);
+}
+
+.wine-plans .plan-tiles .row .col.regionalplus .front .product-info {
+  background-color: rgb(70 70 70 / 10%);
+}
+
+.wine-first-row > h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #131313;
+  font-family: inherit;
+  text-transform: capitalize;
+  margin: 0;
+  margin-right: 15px;
+}
+.wine-dropdown-wrapper .wine-dropdown > div {
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.wine-dropdown-wrapper {
+  position: relative;
+}
+.wine-dropdown-wrapper .wine-dropdown {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  z-index: 100;
+  margin-top: 2px;
+  overflow: auto;
+  user-select: none;
+  display: none;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 8%);
+}
+.wine-dropdown-wrapper .wine-dropdown-value svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.wine-dropdown-wrapper .wine-dropdown-value.open svg {
+  transform: rotate(180deg);
+}
+.wine-dropdown-wrapper .wine-dropdown-value {
+  background: #ffffff;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #fff;
+}
+
+.wine-dropdown-wrapper .wine-dropdown > div:hover {
+  background: #b81337;
+  color: #fff;
+}
+
+.wine-dropdown-wrapper .wine-dropdown-value.open + div {
+  display: block;
+}
+
+.win-clearAll .wine-show-more {
+  display: none;
+}
+
+.wine-show-more {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #b00a2c;
+  border-radius: 4px;
+  padding: 14px 30px;
+  margin: 20px auto;
+  display: block;
+}
+
+html body .eg-filter-section,
+html body .wine-plans .plan-cta,
+html body .new-banner {
+  display: none;
+}
+
+html body .eg-hero-banner {
+  background: url('https://images.wineselectors.com.au/media/vwo/Background-image-subspage.png');
+  background-size: cover;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+html body .eg-hero-inr {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+html body .hero-heading {
+  color: #fff;
+  max-width: 520px;
+  font-size: 40px !important;
+}
+
+p.hero-para {
+  max-width: 537px;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/*  */
+html body .eg-how-it-work-inr {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+html body .eg-how-it-work-inr > div {
+  width: 48%;
+  max-width: 548px;
+}
+
+html body .eg-how-it-work-inr .eg-right-section > * {
+  color: #484944;
+}
+
+html body .eg-how-it-work-inr .eg-right-section {
+  padding-left: 20px;
+}
+
+html body .eg-right-section > p {
+  font-size: 15px;
+}
+
+html body .eg-how-it-work-inr .eg-left-section {
+  padding-right: 20px;
+  background: url('https://images.wineselectors.com.au/media/vwo/wine-glasses-on-table-subspage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html body .eg-how-it-work-inr .eg-left-section img {
+  display: none;
+}
+
+html body .eg-how-it-work {
+  padding: 32px 0px 92px 0px;
+  background: #f2f2f2;
+}
+
+html body .eg-how-it-work-inr .eg-right-section ol {
+  padding-left: 30px;
+}
+
+html body .eg-how-it-work-inr .eg-right-section li {
+  margin-bottom: 15px;
+}
+
+/*  */
+.eg-subscription-section,
+.eg-video-section {
+  background: #f2f2f2;
+}
+
+.eg-filter-section .eg-filter-section-inr,
+.eg-video-section-inr,
+.eg-subscription-inr {
+  max-width: 1220px;
+  padding: 60px 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eg-video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  /* height: 450px; */
+}
+
+.eg-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Subscription */
+html body .eg-subscription-section .eg-subscription-inr {
+  display: flex;
+  padding-top: 0px;
+}
+
+.eg-subscription-section .eg-subscription-inr .eg-sub-left {
+  width: 30%;
+  padding-right: 20px;
+}
+
+.eg-subscription-section .eg-subscription-inr .eg-sub-right {
+  width: 70%;
+  padding-left: 20px;
+}
+
+.eg-subscription-section .eg-sub-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.eg-subscription-section .eg-sub-list li {
+  width: 33%;
+  margin-bottom: 16px;
+  padding-right: 20px;
+  list-style: none;
+  padding-left: 25px;
+  position: relative;
+}
+
+.eg-subscription-section .eg-sub-list li:before {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: #484944;
+  border-radius: 100%;
+}
+
+.eg-sub-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.eg-subscription-section .eg-sub-right .eg-sub-heading {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Faq */
+.eg-faq-section h2 {
+  text-align: left !important;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  html body .eg-subscription-section .eg-sub-left .eg-sub-heading {
+    font-size: 26px !important;
+  }
+
+  html body .eg-form-section .eg-form-right .wrapper .grid-row:nth-child(3) {
+    flex-direction: row;
+  }
+
+  .eg-form-section .eg-form-right {
+    width: 50%;
+    max-width: 550px;
+    margin-left: auto;
+  }
+
+  /* html body .eg-how-it-work-inr .eg-left-section {
+        background: url('https://images.wineselectors.com.au/media/wineselectors/wineplan/makers1.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .eg-how-it-work .eg-left-section img {
+        display: none;
+    } */
+
+  .eg-form-section .eg-form-right .wrapper .FormButton {
+    width: 50%;
+  }
+}
+
+/* Form */
+
+html body .eg-form-section .eg-form-right .wrapper > section,
+html body .eg-form-section .eg-form-right .wrapper > hr {
+  display: none;
+}
+
+.eg-form-section .eg-form-right .wrapper .grid-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row .grid-col-half {
+  width: 100%;
+}
+
+.eg-form-section .eg-form-inr {
+  max-width: 1220px;
+  padding: 92px 20px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.eg-form-section {
+  background: #eeeeee;
+}
+
+/* Filter */
+.eg-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.eg-collection,
+.eg-category {
+  width: 200px;
+  margin: 0px 20px;
+}
+
+p.filter-text {
+  margin-bottom: 0px;
+}
+
+.wine-second-row .wine-fitler-name {
+  display: none;
+}
+
+.wine-second-row .wine-fitler-name.show {
+  display: block;
+}
+
+body.wine-red .wine-plans .plan-tiles .row .col.red,
+body.wine-white .wine-plans .plan-tiles .row .col.white,
+body.wine-mixed .wine-plans .plan-tiles .row .col.mixed {
+  display: block;
+}
+
+body .wine-plans .plan-tiles .row .col {
+  display: none;
+}
+
+.wine-most-popular-collections,
+.wine-celebratory-collections,
+.wine-customised-collection {
+  display: block;
+}
+
+.wine-varietal-collections .wine-plans .plan-tiles .row .col.varietal {
+  display: block;
+}
+
+.wine-connoisseur-collections #connoisseur .plan-tiles .col {
+  display: block;
+}
+
+.wine-regional-collections .wine-plans .plan-tiles .row .col.regional {
+  display: block;
+}
+
+.wine-celebratory-collections .wine-plans .plan-tiles .row .col.entertainer,
+.wine-celebratory-collections .wine-plans .plan-tiles .row .col.sparkling {
+  display: block;
+}
+
+.wine-organic-collections .wine-plans .plan-tiles .row .col.organic {
+  display: block;
+}
+
+.eg-subscription-section .expend-view {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .eg-hero-banner .eg-hero-text {
+    padding-right: 40px;
+  }
+
+  html body .eg-hero-banner {
+    padding-top: 50px;
+  }
+
+  html body .eg-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html body .eg-hero-banner {
+    min-height: 400px;
+  }
+
+  .eg-hero-img,
+  .eg-subscription-inr .eg-sub-list.eg-active li {
+    display: none;
+  }
+
+  .eg-subscription-inr .eg-sub-list.eg-active li:nth-child(1),
+  .eg-subscription-inr .eg-sub-list.eg-active li:nth-child(2),
+  .eg-subscription-inr .eg-sub-list.eg-active li:nth-child(3) {
+    display: block;
+  }
+
+  html body .eg-how-it-work-inr > div {
+    max-width: 540px;
+  }
+
+  html body .eg-subscription-section .expend-view {
+    display: block;
+  }
+
+  html body .hero-heading,
+  html body .hero-para {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .eg-form-section .eg-form-inr {
+    flex-direction: column;
+  }
+
+  .eg-form-section .eg-form-right,
+  .eg-form-section .eg-form-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .eg-form-section .eg-form-left {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  html body .eg-how-it-work-inr .eg-left-section {
+    display: none;
+  }
+
+  html body .eg-how-it-work-inr .eg-right-section {
+    width: 100%;
+    padding-left: 0px;
+    max-width: 100%;
+  }
+
+  .eg-form-section .eg-form-inr,
+  .eg-subscription-section .eg-subscription-inr {
+    flex-direction: column;
+  }
+
+  .eg-form-section .eg-form-inr > div,
+  .eg-subscription-section .eg-subscription-inr > div {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+
+  .eg-subscription-section .eg-sub-list li {
+    width: 100%;
+  }
+}
+
+/* Filter CSS */
+
+.wine-second-row .wine-fitler-name {
+  display: none;
+}
+
+.wine-second-row .wine-fitler-name.show {
+  display: block;
+  background: rgba(131, 11, 44, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.eg-filter-subheading {
+  margin-bottom: 40px;
+}
+
+.eg-filter-section {
+  display: none;
+}
+
+.wine-first-row {
+  display: flex;
+  align-items: center;
+}
+
+.wine-filter {
+  display: block;
+  padding: 0 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 34px;
+}
+
+.wine-filter-collection {
+  width: 270px;
+  margin-right: 20px;
+}
+
+.wine-filter-heading h4 {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #131313;
+}
+
+.wine-filter-category {
+  width: 200px;
+  display: none;
+}
+
+.wine-plans > .wrapper {
+  max-width: 1220px;
+}
+
+.wine-second-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  display: none;
+}
+
+.wine-second-row .wine-fitler-name {
+  margin-right: 20px;
+}
+
+.wine-second-row .wine-filter-clear {
+  text-decoration-line: underline;
+  color: #830b2c;
+  background: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  padding: 0px;
+}
+
+html body .regDiscoveries {
+  padding: 0px;
+}
+
+html body .wine-plans .plan-tiles .row {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  flex-wrap: wrap !important;
+}
+
+/* html body .wine-plans .plan-tiles .row .col {
+    width: 33%;
+    max-width: 100% !important;
+    margin: 0px 20px 0px 20px !important;
+} */
+
+/* html body .wine-plans .plan-tiles .row .col .front {
+    padding-top: 0px;
+    position: static;
+    height: 100%;
+} */
+
+html body .wine-plans .flipper,
+html body .wine-plans .flip-container {
+  height: 100%;
+}
+
+.wine-plans .plan-tiles .row .col .front .description {
+  height: auto !important;
+  /* min-height: 180px !important; */
+  padding: 0 24px !important;
+}
+
+.slick-track .price-bar sup,
+.wine-plans .plan-tiles .row .col .front .price-bar p sup:last-of-type {
+  font-size: 24px;
+  position: static;
+}
+
+.slick-track .sale p,
+.slick-track .price-bar small {
+  font-size: 15px !important;
+  font-weight: 400;
+}
+
+.slick-track .view-more-button {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  margin: 0.8em 5%;
+  width: 90%;
+  text-align: center;
+  background-color: #c3951a;
+}
+
+.wine-plans .plan-tiles .row .col .front .price-bar small {
+  position: static !important;
+  font-size: 14px !important;
+}
+
+.slick-track .price-bar {
+  background: transparent !important;
+  color: #000;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.slick-track .price-bar p {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.wine-plans .plan-tiles .row .col .front .price-bar p > small:nth-child(1) {
+  margin-right: 0px !important;
+}
+
+.wine-plans .plan-tiles .row .col .front .product-info {
+  padding: 18px 24px;
+  background: #f9f4e8;
+}
+
+.wine-second-row .wine-fitler-name button {
+  background: transparent;
+  color: #830b2c;
+}
+
+.wine-plans .plan-tiles .row .col .front .price-bar {
+  background: transparent !important;
+  color: #484944;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: absolute;
+  bottom: 105px;
+}
+
+.wine-plans .plan-tiles .row .col .front .sale {
+  background: transparent;
+  border: none;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #484944;
+  position: absolute;
+  bottom: 72px;
+}
+
+.wine-plans .plan-tiles .row .col .front .sale p {
+  color: #484944cc;
+  font-size: 15px;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+body.wine-red .wine-plans .plan-tiles .row .col.red,
+body.wine-white .wine-plans .plan-tiles .row .col.white,
+body.wine-mixed .wine-plans .plan-tiles .row .col.mixed {
+  display: block;
+}
+
+/* .regDiscoveries+h2,
+.celebSelections+h2,
+body .wine-plans .plan-tiles .row .col {
+    display: none;
+} */
+
+.wine-most-popular-collections,
+.wine-celebratory-collections,
+.wine-customised-collection {
+  display: block;
+}
+
+.wine-varietal-collections .wine-plans .plan-tiles .row .col.varietal {
+  display: block;
+}
+
+.wine-connoisseur-collections #connoisseur .plan-tiles .col {
+  display: block;
+}
+
+.wine-regional-collections .wine-plans .plan-tiles .row .col.regional {
+  display: block;
+}
+
+.wine-celebratory-collections .wine-plans .plan-tiles .row .col.entertainer,
+.wine-celebratory-collections .wine-plans .plan-tiles .row .col.sparkling {
+  display: block;
+}
+
+.wine-organic-collections .wine-plans .plan-tiles .row .col.organic {
+  display: block;
+}
+
+body.wineCol-most-popular-collections .tile.most-popular-collections,
+body.wineCol-regional-collections .tile.regional-collections,
+body.wineCol-organic-collections .tile.organic-collections,
+body.wineCol-celebratory-collections .tile.celebratory-collections,
+body.wineCol-varietal-collections .tile.varietal-collections,
+body.wineCol-connoisseur-collections .tile.connoisseur-collections,
+body.wineCol-customised-collection .tile.customised-collections {
+  display: block !important;
+}
+
+.eg-filter-section {
+  display: none;
+}
+
+.wine-filter-heading h4 {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #131313;
+}
+
+.wine-filter-category {
+  width: 200px;
+}
+
+.wine-plans > .wrapper {
+  max-width: 1220px !important;
+  padding: 90px 15px 90px 15px !important;
+}
+
+@media screen and (max-width: 1617px) and (min-width: 1020px) {
+  html body .wine-plans .plan-tiles .row .col {
+    max-width: 360px !important;
+    padding-left: inherit;
+    /* margin: 0px 20px !important; */
+    /* margin-bottom: 140px !important; */
+    /* padding-bottom: 0px !important; */
+    float: none !important;
+  }
+
+  html body .wine-plans .plan-tiles {
+    max-width: 100% !important;
+  }
+}
+
+body.win-clearAll .wine-plans .plan-tiles .row .col {
+  display: block;
+}
+
+/* New CSS */
+.eg-faq-section .eg-faq-inr {
+  max-width: 1220px;
+  padding: 90px 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eg-form-section .eg-form-right .FormPanel > .grid-row:last-of-type {
+  display: none;
+}
+
+.eg-form-section .eg-form-left img {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.eg-form-section .eg-form-left {
+  background: url('https://images.wineselectors.com.au/media/vwo/wine-glasses-on-table-subspage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eg-subscription-section h2,
+.eg-subscription-section > * {
+  color: #484944;
+}
+
+.eg-faq-section .accordion {
+  padding-left: 50px;
+}
+
+.eg-faq-section .accordion .header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.eg-faq-section .accordion .header b {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.eg-faq-section .accordion .header .icon-container .icon::before {
+  color: #830b2c;
+}
+
+.eg-form-section .eg-form-right .wrapper .grid-row input::-webkit-input-placeholder:after,
+.eg-form-section .eg-form-right .wrapper .grid-row input:-moz-placeholder:after,
+.eg-form-section .eg-form-right .wrapper .grid-row input::-moz-placeholder:after,
+.eg-form-section .eg-form-right .wrapper .grid-row input:-ms-input-placeholder:after {
+  content: '*';
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .eg-sub-list:not(.eg-active) + .expend-view {
+    display: none;
+  }
+
+  body.wineCol-most-popular-collections .plan-tiles > .row > .tile.most-popular-collections {
+    display: none !important;
+  }
+
+  html body .eg-video-section .eg-video-container {
+    padding-bottom: 56.25%;
+  }
+
+  html body .eg-faq-section .accordion {
+    padding-left: 0px;
+  }
+
+  p.eg-sub-para {
+    font-size: 15px;
+  }
+
+  .eg-subscription-section h2 {
+    padding-right: 0px !important;
+  }
+
+  .eg-form-section .eg-form-right .wrapper .grid-row:nth-child(3) > div {
+    width: 48%;
+  }
+
+  .eg-form-section .eg-form-right .wrapper .grid-row:nth-child(3) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .eg-subscription-section .eg-sub-right .eg-sub-heading {
+    font-size: 15px;
+    margin-top: 24px;
+  }
+
+  .eg-subscription-inr .eg-sub-list.eg-active li {
+    font-size: 15px;
+  }
+}
+
+.eg-subscription-section h2 {
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #131313;
+}
+
+.eg-subscription-section .eg-sub-right .eg-sub-heading {
+  font-size: 15px;
+  margin-top: 24px;
+}
+
+.eg-subscription-inr .eg-sub-list.eg-active li {
+  font-size: 15px;
+}
+
+.FormPanel fieldset {
+  position: relative;
+}
+
+.FormPanel label[id] {
+  position: absolute;
+  left: 9px;
+  top: 18px;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+fieldset.wine-hide-label label[id] {
+  display: none;
+  /* font-size: 11px;
+  top: -4px;
+  padding-left: 5px;
+  background-color: #fff; */
+}
+
+.FormPanel > .grid-row:nth-child(3) > div:last-child {
+  margin-top: 5px;
+}
+
+.wine-plans .plan-tiles .row .col .front {
+  padding-top: 0px !important;
+  padding-bottom: 169px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transform: none !important;
+  position: static !important;
+  border-radius: 4px !important;
+}
+
+.wine-filter-collection select,
+.wine-filter-category select {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' fill='%23a71930' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 330 330' style='enable-background:new 0 0 330 330;' xml:space='preserve'%3E%3Cpath id='XMLID_225_' d='M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  background-position: center right 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 15px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wine-filter-collection select:focus,
+.wine-filter-category select:focus {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' fill='%23a71930' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 330 330' style='enable-background:new 0 0 330 330;' xml:space='preserve'%3E%3Cpath id='XMLID_224_' d='M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+@media (min-width: 768px) {
+  body .wine-carousel {
+    display: none;
+  }
+}
+
+/* NEW CSS */
+.wine-plans .wine-show-more + h2 ~ h2,
+.wine-plans .wine-show-more + h2 {
+  display: none;
+}
+
+.wine-plans .plan-tiles .row .col .front .view-more-button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+}
+
+.regDiscoveries .tile:not(:nth-child(1)) .front img {
+  height: 134px;
+}
+
+.regDiscoveries .most-popular-collections.regional-collections:nth-child(1) .front:before {
+  content: 'Most Popular';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #131313;
+  padding: 10px;
+  background: #c3951a;
+}
+
+@media screen and (min-width: 1200px) {
+  html body .wine-plans .plan-tiles .row .col {
+    width: 30% !important;
+    margin-right: 20px !important;
+    max-width: 100% !important;
+  }
+}
+
+/* .wine-plans .plan-tiles .row .col .back {
+  display: none !important;
+} */
+
+.eg-filter-heading {
+  margin-top: 0px !important;
+}
+
+.wine-plans .slick-slide {
+  margin: 0 5px;
+}
+
+.wine-plans .slick-list {
+  margin: 0px -5px 0px -5px;
+}
+
+.slick-track .sale,
+.slick-track .price-bar,
+.slick-track .description,
+.slick-track .product-info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.slick-slide .front .product-info > p {
+  padding: 6px 0 5px 31px;
+  margin: 0;
+}
+
+.slick-slide .front .product-info > p:nth-child(1) {
+  background: url(https://www.wineselectors.com.au/getmedia/2ef9450a-c57b-4f37-836f-9da6b3561d2d/e92ccea…_2) left center no-repeat;
+}
+
+.slick-slide .front .product-info > p:nth-child(2) {
+  background: url(https://www.wineselectors.com.au/getmedia/9529b5c3-9c72-4bed-889c-18d74d7d876d/6621530a09d997b008926afbf2aa79e8_3) left
+    center no-repeat;
+}
+
+.slick-slide .front .product-info > p:nth-child(3) {
+  background: url(https://www.wineselectors.com.au/getmedia/181f9b07-8387-4b12-9f6e-78733c8dbde4/0e1f81645f1042d107859a88f16650e8_4) 3px
+    center no-repeat;
+}
+
+.slick-slide .front .product-info {
+  background: #f9f4e8;
+  padding-top: 20px;
+}
+
+.eg-faq-section .accordion > .item:nth-child(1) {
+  display: none !important;
+}
+
+.eg-hero-banner + .wrapper {
+  background: #f2f2f2;
+  max-width: 100%;
+}
+
+.eg-hero-banner + .wrapper .breadcrumbs {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 28px;
+}
+
+.wine-plans .plan-tiles .row .col .front .product-info > p:last-child,
+.wine-plans .wrapper .wine-filter + h2.text-center {
+  display: none;
+}
+
+html body article {
+  padding-bottom: 0px;
+}
+
+.eg-sub-list:not(.eg-active) + .expend-view {
+  display: none;
+}
+body .wine-carousel {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body.wineCol-most-popular-collections .wine-carousel {
+    display: block;
+  }
+  .most-popular-collections.customised-collections.slick-slide {
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.eg-video {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+	border: 1px solid #605d5d;
+}
+
+.eg-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.eg-video-container {
+	padding: 40px 20px;
+}
+
+.eg-thumbnail {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: calc(100% - 80px);
+	background: transparent;
+	top: 40px;
+	left: 20px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.eg-video-container {
+	position: relative;
+}
+
+@media screen and (max-width:767px) {
+	html body .eg-thumbnail {
+		width: calc(100% - 30px);
+	}
+
+	.eg-video-container {
+		padding: 40px 15px;
+	}
+
+}

@@ -1,0 +1,26 @@
+.price.price-container {
+    justify-content: space-between !important;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+    margin-right: -16px !important;
+}
+
+.price.price-container > h2, .price.price-container > span {
+    font-weight: 700 !important;
+    font-family: FuturaPT, sans-serif;
+}
+
+.price.price-container > h2 {
+    letter-spacing: normal;
+    flex: 1;
+    margin-left: 10px !important;
+    font-size: 23px !important;
+}
+
+.price.price-container > span {
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px !important;
+}

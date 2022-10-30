@@ -1,0 +1,92 @@
+/*phone content box*/
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div {
+	position: relative;
+}
+
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div > .eg_call_me {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+	z-index: 999 !important;
+}
+
+/*setting background color green to the main phone number part*/
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left {
+	background-color: #27a548;
+	padding: 8px 15px;
+	border-radius: 26px;
+}
+
+/*setting background color none of phone number*/
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div > div > div.bg-white {
+	background: none !important;
+}
+
+/*hidding that small arrow to the phone number
+and also helper text right to the phone number*/
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div > div > div.bg-white::after, body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div > div > div.bg-green {
+	display: none !important;
+}
+
+/* styling the phone number */
+body > div.page-wrapper > header > div.panel.wrapper > div > div > div.header-left > div > div > div.bg-white > a {
+	color: white !important;
+	padding: 0;
+	display: contents;
+}
+
+/* styling the phone text */
+.page-header .panel.wrapper .header-social .header-left .content p {
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+/* media queries */
+
+/*preventing to hide phone text*/
+@media (max-width:1200px) {
+	.page-header .panel.wrapper .header-social .header-left .content p {
+		display: initial;
+	}
+
+}
+
+/*preventing to hide phone icon*/
+@media (max-width:1024px) {
+	.page-header .panel.wrapper .header-social .header-left .content i {
+		display: initial;
+	}
+
+}
+
+@media (max-width:991px) {
+	.page-header .panel.wrapper .header-social .header-left .content p, .page-header .panel.wrapper .header-social .header-left .content .green-number .tel, .page-header .panel.wrapper .header-social .header-left .content {
+		font-size: 11px;
+	}
+
+	.page-header .panel.wrapper .header-social .header-left .content i {
+		margin-right: 1px;
+	}
+
+}
+
+@media (max-width:576px) {
+	.page-header .panel.wrapper .header-social .header-left .content p, .page-header .panel.wrapper .header-social .header-left .content .green-number .tel, .page-header .panel.wrapper .header-social .header-left .content {
+		font-size: 8px;
+	}
+
+	.page-header .panel.wrapper .header-social .header-left .content i {
+		margin-right: 1px;
+	}
+
+	div.page-wrapper > header > div.panel.wrapper > div > div > div.header-right > div.socials > a > i {
+		font-size: 10.12px !important;
+	}
+
+	.page-header .panel.header {
+		padding: 10px 4px !important;
+	}
+
+}

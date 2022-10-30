@@ -1,0 +1,228 @@
+#eg-popup-999 {
+	overflow: auto !important;
+	z-index: 9999;
+}
+
+#eg-popup-999 > div.popup.central {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	background: none !important;
+	min-height: 100vh;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content {
+	max-height: 100% !important;
+	height: 100%;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div {
+	height: 100%;
+	background: url("https://expogrowth.in/wp-content/uploads/2022/10/background_2.jpg");
+	padding: 50px 0 20px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > span#camp_popup_close {
+	position: absolute;
+	right: 10px !important;
+	top: 10px !important;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title, #eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 {
+	padding-left: 50px;
+	width: 42%;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div h1, #eg-popup-999 > div.popup.central > #camp_content > div > div > h2, #eg-popup-999 > div.popup.central > #camp_content > div > div > a {
+	text-align: initial !important;
+	color: var(--white) !important;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title > h1 {
+	font-weight: 900;
+	font-family: "WotfardBold", "Arial", "sans-serif";
+	font-size: 32px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 > h2 {
+	font-weight: 400;
+	font-family: "Wotfard", "Arial", "sans-serif";
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > a {
+	display: flex;
+	padding-left: 37px;
+	align-items: center;
+	background-color: #21326a;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 23px;
+	width: max-content;
+	border-top-right-radius: 49px;
+	border-bottom-right-radius: 49px;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > a > img {
+	width: 60px;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > a > span {
+	font-size: 40px;
+	font-family: "WotfardBold", "Arial", "sans-serif";
+	color: var(--white);
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services {
+	display: flex;
+	flex-direction: column;
+	text-align: initial;
+	padding-left: 50px;
+	margin-top: 16px;
+	width: 58%;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > h3 {
+	font-weight: 100 !important;
+	color: var(--white);
+	font-size: 20px;
+	font-family: 'Open Sans';
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div {
+	display: flex;
+	gap: 20px;
+	margin-top: 10px;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service {
+	text-align: center;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service > img {
+	width: 48px !important;
+}
+
+#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service > h4 {
+	text-align: center;
+	color: var(--white);
+	font-size: 12px;
+	font-weight: 100;
+	font-family: 'Open Sans';
+}
+
+/*popup media query*/
+@media(max-width:814px) {
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title, #eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 {
+		width: 50%;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title > h1 {
+		font-size: 20px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 > h2 {
+		font-size: 18px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services {
+		width: 63%;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a {
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a > img {
+		width: 28px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a > span {
+		font-size: 22px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > h3 {
+		font-size: 16px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service > img {
+		width: 29px !important;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service > h4 {
+		font-size: 10px;
+	}
+
+}
+
+@media(max-width:600px) {
+	#eg-popup-999 > div.popup.central > #camp_content > div {
+		padding: 20px 0;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title, #eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2, #eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services {
+		padding-left: 20px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title > h1 {
+		font-size: 18px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > h3 {
+		font-size: 12px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 > h2 {
+		font-size: 14px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a > span {
+		font-size: 20px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a {
+		display: flex;
+		padding-left: 19px;
+	}
+
+}
+
+@media(max-width:424px) {
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title, #eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 {
+		width: 70%;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > div > div.eg-service > h4 {
+		font-size: 9px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services {
+		width: 91%;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title > h1 {
+		font-size: 14px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-popup-title-2 > h2 {
+		font-size: 11px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > a > span {
+		font-size: 13px;
+	}
+
+	#eg-popup-999 > div.popup.central > #camp_content > div > div.eg-services > h3 {
+		font-size: 10px;
+	}
+
+}
