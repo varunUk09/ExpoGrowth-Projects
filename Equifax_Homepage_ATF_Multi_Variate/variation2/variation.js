@@ -46,7 +46,7 @@
 
 
         /* Initialize variation */
-        waitForElement("body", init, 50, 15000);
+        waitForElement(".video-block-wrapper", init, 50, 15000);
     } catch (e) {
         if (debug) console.log(e, "error in Test" + variation_name);
     }

@@ -46,6 +46,7 @@ li#carousel__slide3 {
     height: 150px;
 }
 
+
 @media(min-width:768px) {
     .carousel__viewport {
         justify-content:
@@ -83,7 +84,12 @@ li#carousel__slide3 {
         height: 310px !important;
     }
 
-    .carousel li.carousel__navigation-item + li {
-    margin-left: 6px;
-}
+    .carousel li.carousel__navigation-item+li {
+        margin-left: 6px;
+    }
+
+    .header-wrapper {
+        background-position: left;
+    }
+
 }
