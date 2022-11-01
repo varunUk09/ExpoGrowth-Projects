@@ -54,7 +54,7 @@
 
 
         /* Initialize variation */
-        waitForElement("body", init, 50, 15000);
+        waitForElement(".dialog-off-canvas-main-canvas article .s-hero .s-hero__in", init, 50, 15000);
     } catch (e) {
         if (debug) console.log(e, "error in Test" + variation_name);
     }
