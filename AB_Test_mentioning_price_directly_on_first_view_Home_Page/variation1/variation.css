@@ -1,0 +1,39 @@
+.eg-pricing {
+    order: 1;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://expogrowth.in/wp-content/uploads/2022/11/IMG-20221102-WA0050.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.eg-per-page > strong {
+    font-size: 26px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .nfn__container {
+        max-width: 770px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .nfn__container {
+        flex-direction: column;
+    }
+
+    .eg-pricing {
+        order: 0;
+        align-self:center;
+        height: 160px;
+    }
+}

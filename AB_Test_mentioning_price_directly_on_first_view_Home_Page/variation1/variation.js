@@ -26,13 +26,18 @@
 
         /* Variation functions */
         function init() {
-            // write your js here(function can be outside)
+            document.querySelector("#whattypeoftranslation div.nfn__container").insertAdjacentHTML("afterbegin",`
+                <div class="eg-pricing">
+                    <div class="eg-per-page"><strong>&dollar;30</strong>/Page</div>
+                    <div class="eg-per-word"><span>10¢</span>/Word</div>
+                </div>   
+                `);
 
         }
 
 
         /* Initialize variation */
-        waitForElement("", init, 50, 15000);
+        waitForElement("#header-img > section.template_banner.feature-neka", init, 50, 15000);
     } catch (e) {
         if (debug) console.log(e, "error in Test" + variation_name);
     }
