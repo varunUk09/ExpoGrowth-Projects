@@ -1,0 +1,170 @@
+/*hiding default banner*/
+main article .elementor-section-wrap section:nth-child(1)[data-id='398b9fd'] {
+    display: none;
+}
+
+
+.eg-banner img {
+    width: 100%;
+}
+
+.eg-banner {
+    background: #300163;
+    color: #fff;
+}
+
+.eg-banner-wrapper {
+    max-width: 1365px;
+    margin-inline: auto;
+}
+
+.eg-container {
+    display: flex;
+    margin-inline: 10%;
+    align-items: center;
+}
+
+.eg-container>div {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.eg-left-content {
+    padding-block: 50px;
+}
+
+.eg-heading {
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 44px !important;
+}
+
+.eg-benefits {
+    margin-inline: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.eg-benefits>li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.8;
+}
+
+.eg-icons {
+    fill: #cabdff;
+    display: grid;
+}
+
+.eg-icons>svg {
+    width: 22px;
+}
+
+.eg-benefits li p {
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.eg-desc {
+    color: #d7cde0;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 0 !important;
+}
+
+.eg-checkout-plans-cta {
+    background: #8b00ff;
+    display: block;
+    text-align: center;
+    color: white !important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+/* hiding description of mobile */
+#eg-desc-mobile {
+    display: none;
+}
+
+#eg-desc-desktop {
+    display: block;
+    max-width: 450px;
+}
+
+.eg-checkout-plans-cta {
+    display: none;
+}
+
+.eg-right-content {
+    padding-block: 25px;
+    align-self: flex-start;
+}
+
+/*tab view*/
+@media (min-width: 768px) and (max-width: 895px) {
+    #eg-desc-desktop {
+        margin-right: -100%;
+        font-size: 16px;
+    }
+}
+
+/*mobile view*/
+@media(max-width: 767px) {
+    .eg-container {
+        flex-direction: column;
+        margin-inline: 9%;
+    }
+
+    .eg-desc {
+        margin-top: 26px;
+    }
+
+    #eg-desc-desktop {
+        display: none;
+    }
+
+    #eg-desc-mobile {
+        display: block;
+    }
+
+    .eg-checkout-plans-cta {
+        display: block;
+    }
+
+    .eg-benefits>li+li {
+        margin-top: 4px;
+    }
+
+    .eg-icons>svg {
+        width: 20px;
+    }
+
+    h1.eg-heading {
+        font-size: 36px !important;
+    }
+
+    ul.eg-benefits {
+        margin-bottom: 20px;
+    }
+
+    .eg-desc {
+        font-size: 16px;
+    }
+
+    .eg-left-content {
+        padding-bottom: 0;
+    }
+
+    .eg-benefits li p {
+        font-size: 16px;
+    }
+
+    .eg-right-content {
+        align-self: center;
+    }
+}

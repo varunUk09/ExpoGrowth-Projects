@@ -1,0 +1,9 @@
+{
+    "files": [
+        "./variationB/variation.css",
+        "./variationB/variation.js"
+    ],
+
+    "urls": ["https://www.wearewild.com/get-started/deodorant/step1"],
+    "inject": ""
+}
