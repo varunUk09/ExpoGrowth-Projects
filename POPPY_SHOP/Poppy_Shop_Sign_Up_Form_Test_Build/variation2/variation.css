@@ -1,0 +1,162 @@
+form.js-registration-form > div:has(#acceptsMarketing)  + div,
+form.js-registration-form > div:has(#acceptsMarketing)  + div + div.field{
+    display: none !important;
+}
+
+/*return to store link at top*/
+.eg-return-to-store {
+    text-align: initial;
+    font-size: 15px;
+}
+
+.eg-return-to-store a {
+    color: #4a4a4a;
+    border-bottom: 1px solid;
+}
+
+.eg-auth-container {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.eg-auth-container button {
+    color: white;
+    background: #e22727;
+    border: 1px solid #e22727;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 13px 46px;
+    cursor: pointer;
+}
+
+.eg-auth-container button:hover {
+    background: white;
+    color: #e22727;
+}
+
+.eg-auth-container button,
+.eg-auth-container p {
+    font-size: 18px;
+}
+
+.eg-auth-container>p>.eg-login-text {
+    border-bottom: 1px solid;
+    font-weight: 500;
+    cursor: pointer;
+    color: #4a4a4a;
+}
+
+/*news letter text*/
+form.js-registration-form > div:has(#acceptsMarketing) {
+    margin-bottom: 16px;
+}
+
+form.js-registration-form > div:has(#acceptsMarketing) label {
+    color: #005ca8;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#MainContent>section>div.container>div.columns>div.column>div.field.account-subscribe {
+    background: #f3f9fc;
+    padding: 20px;
+    font-size: 16px !important;
+}
+
+/*input field hover effect*/
+
+form.js-registration-form>div.field:not(.eg-user-name-container):hover .label-holder label {
+    color: #2067aa;
+}
+
+form.js-registration-form>div.field.eg-user-name-container .field:hover .label-holder label {
+
+    color: #2067aa;
+}
+
+form.js-registration-form>div:has(#acceptsMarketing) {
+        text-align:initial;
+    }
+
+@media(max-width: 1200px) and (min-width: 768px) {
+
+    .eg-auth-container button {
+        font-size: 15px;
+    }
+
+    .eg-auth-container p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 830px){
+    div.eg-auth-container{
+        flex-direction: column;
+    }
+
+    form.js-registration-form>div:has(#acceptsMarketing) {
+        text-align:center;
+    }
+}
+
+@media(min-width: 768px) {
+     /*header 2*/
+    #MainContent>section>div.container>div.columns>div.column>div.account-subscribe:not(.field) p {
+        width: 61% !important;
+        text-align: left;
+    }
+    
+    /* first name last name and title */
+    .field.eg-user-name-container>div {
+        width: 48%;
+        margin-bottom: 0px;
+    }
+
+    .eg-user-name-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .field:has(#Title) {
+        width: 192px !important;
+    }
+
+    /* first name last name and title */
+
+    #MainContent>section>div.container>div.columns>div.column {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+
+    #MainContent>section>div.container>div.columns>div.column>h1,
+    #MainContent>section>div.container>div.columns>div.column>div.account-subscribe,
+    #MainContent>section>div.container>div.columns>div.column>div.success-message{
+        flex-basis: 100%;
+    }
+
+    #MainContent>section>div.container>div.columns>div.column>div.field.account-subscribe {
+        flex-basis: 36%;
+    }
+
+    form.js-registration-form,
+    form.js-registration-form.is-hidden + div.field.account-subscribe{
+        flex: 1;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .eg-auth-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 576px){
+    #MainContent>section>div.container>div.columns>div.column>h1{
+        font-size: 27px !important;
+    }
+}
