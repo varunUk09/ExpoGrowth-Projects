@@ -41,7 +41,8 @@
 
 .eg-video-carousel-wrapper .title {
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 700;
+    font-family: system-ui;
 }
 
 /*video block*/
@@ -228,10 +229,6 @@ div.eg-usp svg {
 
     .eg-video-carousel-wrapper .video-block-container p.info-block-p {
         font-size: 13.8px;
-    }
-
-    .eg-video-carousel-wrapper .carousel__viewport li .hp-grid-child>* {
-        text-align: center;
     }
 
     .carousel {

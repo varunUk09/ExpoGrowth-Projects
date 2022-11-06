@@ -25,7 +25,7 @@
         }
 
         const egPricingHTML = `
-        <section class="eg-price-section">
+        <section class="eg-usps">
             <div class="eg-wrapper">
                 <div class="eg-container">
                     <div class="eg-card-1">

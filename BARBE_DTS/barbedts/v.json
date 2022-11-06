@@ -1,9 +1,0 @@
-{
-    "files": [
-        "./variation.css",
-        "./variation.js"
-    ],
-
-    "urls": ["https://www.barberdts.com/uk/"],
-    "inject": ""
-}
