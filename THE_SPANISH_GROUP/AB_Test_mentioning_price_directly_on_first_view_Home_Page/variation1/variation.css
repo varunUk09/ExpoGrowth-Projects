@@ -1,3 +1,8 @@
+/*hiding that white image in between hero section and section with people image*/
+#p-bg-n #bg1-n {
+    display: none;
+}
+
 .eg-pricing-wrapper {
     width: 100%;
     max-width: 1170px;
@@ -7,7 +12,7 @@
 }
 
 .eg-pricing {
-    margin-right: 177px;
+    margin-right: 250px;
     box-shadow: 0 0 20px rgb(0 0 0 / 14%);
     z-index: 999;
     width: 100%;
@@ -30,11 +35,17 @@
     font-size: 26px;
 }
 
-
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
+    .eg-pricing-container{
+        padding-inline: 20px;
+    }
     .eg-pricing {
         margin-right:0;
     }
+}
+
+
+@media(max-width: 768px) {
 
     .eg-pricing-container {
         padding-top: 20px;
