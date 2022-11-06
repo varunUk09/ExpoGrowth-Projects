@@ -24,7 +24,7 @@
             }, delayTimeout);
         }
 
-        egGreaterthanSvg = `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        let egGreaterthanSvg = `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                              width="103.536px" height="103.536px" viewBox="0 0 103.536 103.536" style="enable-background:new 0 0 103.536 103.536;"
                                              xml:space="preserve">
                                                 <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195
@@ -32,7 +32,7 @@
                                                     c-1.447,3.769,0.438,7.995,4.207,9.44l72.569,27.834L4.299,82.255C0.62,83.92-1.012,88.249,0.65,91.928z"/>
                                             </svg>`;
 
-        egOverviewHTML = `
+        let egOverviewHTML = `
         <section class="eg-overview-container">
             <div class="eg-overview-wrapper">
                 <h2 class="eg-heading">Top Services</h2>
