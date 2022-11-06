@@ -1,0 +1,106 @@
+.eg-overview-wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin-inline: auto;
+}
+
+.eg-callouts-container {
+    display: flex;
+    gap: 20px;
+}
+
+.eg-callouts img {
+    width: 56px;
+    height: 56px;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eg-callouts {
+    position: relative;
+    border: 2px solid #1f3d5c;
+    padding: 0 16px 16px 16px;
+    border-radius: 5px;
+}
+
+.eg-callouts .eg-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 38px 0 8px 0;
+}
+
+.eg-callouts .eg-info {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.eg-callouts a svg {
+    width: 9px;
+    fill: #1f3d5c;
+    height: 9px;
+}
+
+.eg-callouts a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-block: 7px;
+    justify-content: flex-end;
+    gap: 5px;
+    color: #1f3d5c;
+    font-weight: 600;
+}
+
+section.eg-overview-container {
+    padding: 30px 16px;
+}
+
+.eg-callouts::before {
+    content: '';
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eg-overview-wrapper>.eg-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 1099px) {
+    .eg-callouts {
+        flex-basis: 40%;
+    }
+
+    .eg-callouts-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 36px;
+    }
+}
+
+@media(max-width: 767px) {
+    .eg-callouts {
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+
+    .eg-callouts-container {
+        gap: 50px;
+    }
+
+    .eg-overview-wrapper>.eg-heading {
+        margin-bottom: 50px;
+    }
+}

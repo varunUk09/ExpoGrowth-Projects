@@ -1,6 +1,17 @@
+.eg-pricing-wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .eg-pricing {
-    order: 1;
-    width: 200px;
+    margin-right: 177px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 14%);
+    z-index: 999;
+    width: 100%;
+    max-width: 177px;
     height: 200px;
     background-image: url("https://expogrowth.in/wp-content/uploads/2022/11/IMG-20221102-WA0050.jpg");
     background-size: contain;
@@ -15,25 +26,17 @@
     gap: 10px;
 }
 
-.eg-per-page > strong {
+.eg-per-page>strong {
     font-size: 26px;
 }
 
 
-@media only screen and (min-width: 1200px) {
-    .nfn__container {
-        max-width: 770px !important;
-    }
-}
-
-@media(max-width: 767px) {
-    .nfn__container {
-        flex-direction: column;
-    }
-
+@media(max-width: 768px) {
     .eg-pricing {
-        order: 0;
-        align-self:center;
-        height: 160px;
+        margin-right:0;
+    }
+
+    .eg-pricing-container {
+        padding-top: 20px;
     }
 }

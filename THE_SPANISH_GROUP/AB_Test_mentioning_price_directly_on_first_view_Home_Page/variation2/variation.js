@@ -34,7 +34,7 @@
                         </div>
                         <div class="eg-pricing">
                             <p>Certified Translation for Official Purposes</p>
-                            <div><span>&dollar;30</span>/Page</div>
+                            <div class="eg-price"><span>&dollar;30</span>/Page</div>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@
                         </div>
                         <div class="eg-pricing">
                             <p>Certified Translation for Professional Purposes</p>
-                            <div><span>10¢</span>/Word</div>
+                            <div class="eg-price"><span>10¢</span>/Word</div>
                         </div>
                     </div>
 
@@ -54,7 +54,20 @@
                         </div>
                         <div class="eg-pricing">
                             <p>Academic Translation and Evaluation</p>
-                            <div><span>&dollar;49</span>/Page</div>
+                            <div class="eg-price"><span>&dollar;49</span>/Page</div>
+                        </div>
+                    </div>
+
+                    <div class="eg-card-4">
+                        <div class="eg-icon">
+                           <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-7.png" alt="Academic Translation and Evaluation">
+                        </div>
+                        <div class="eg-pricing">
+                            <p>Certified Translation for Official &amp; Professional Purposes</p>
+                            <div class="eg-price-container">
+                                <div class="eg-price"><span>&dollar;30</span>/Page</div>
+                                <div class="eg-price"><span>10¢</span>/Word</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -63,7 +76,7 @@
 
         /* Variation functions */
         function init() {
-            document.querySelector("#header-img > section.template_banner.feature-neka").insertAdjacentHTML("afterend",egPricingHTML);
+            document.querySelector("#header-img > section.template_banner.feature-neka").insertAdjacentHTML("afterend", egPricingHTML);
 
         }
 
