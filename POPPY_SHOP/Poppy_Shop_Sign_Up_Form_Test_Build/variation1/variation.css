@@ -82,6 +82,15 @@ form.js-registration-form>div:has(#acceptsMarketing) {
     text-align: initial;
 }
 
+#MainContent>section>div.container>div.columns>div.column>div.field.account-subscribe {
+    margin-top: -100px;
+}
+
+@media(max-width: 1215px) and (min-width: 768px) {
+    #MainContent>section>div.container>div.columns>div.column>div.field.account-subscribe {
+        margin-top: -120px;
+    }
+}
 
 @media(max-width: 1200px) and (min-width: 768px) {
 
@@ -93,6 +102,7 @@ form.js-registration-form>div:has(#acceptsMarketing) {
         font-size: 16px;
     }
 }
+
 
 @media(max-width: 830px) {
     div.eg-auth-container {
@@ -155,6 +165,10 @@ form.js-registration-form>div:has(#acceptsMarketing) {
 }
 
 @media(max-width: 767px) {
+    #MainContent>section>div.container>div.columns>div.column>div.field.account-subscribe {
+        margin-top:0;
+    }
+
     .eg-auth-container {
         flex-direction: column;
         justify-content: center;
