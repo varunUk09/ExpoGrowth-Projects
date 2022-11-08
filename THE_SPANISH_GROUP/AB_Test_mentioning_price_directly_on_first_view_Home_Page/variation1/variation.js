@@ -27,14 +27,12 @@
         /* Variation functions */
         function init() {
             document.querySelector("header#header-img > section.template_banner").insertAdjacentHTML("afterbegin",`
-                <div class = "eg-pricing-container">
-                <div class = 'eg-pricing-wrapper'>
+              
                 <div class="eg-pricing">
                     <div class="eg-per-page"><strong>&dollar;30</strong>/Page</div>
                     <div class="eg-per-word"><span>10¢</span>/Word</div>
                 </div>
-                </div>
-                </div>   
+              
                 `);
 
         }

@@ -3,23 +3,16 @@
     display: none;
 }
 
-.eg-pricing-wrapper {
-    width: 100%;
-    max-width: 1170px;
-    margin-inline: auto;
-    display: flex;
-    justify-content: center;
-}
+
 
 .eg-pricing {
-    margin-right: 250px;
-    box-shadow: 0 0 20px rgb(0 0 0 / 14%);
+
     z-index: 999;
     width: 100%;
-    max-width: 177px;
-    height: 200px;
-    background-image: url("https://expogrowth.in/wp-content/uploads/2022/11/IMG-20221102-WA0050.jpg");
-    background-size: contain;
+    max-width: 182px;
+    height: 180px;
+    background-image: url(https://expogrowth.in/wp-content/uploads/2022/11/bluestar.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -29,25 +22,45 @@
     color: white;
     font-size: 17px;
     gap: 10px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
 }
 
 .eg-per-page>strong {
     font-size: 26px;
 }
 
-@media(max-width: 1199px) {
-    .eg-pricing-container{
-        padding-inline: 20px;
-    }
+@media(min-width: 768px) and (max-width: 1199px) {
     .eg-pricing {
-        margin-right:0;
+        max-width: 100px;
+        height: 100px;
+        font-size: 10px;
+        top: 8px;
+        left: 86%;
+        gap: 0;
+    }
+
+    .eg-per-page>strong {
+        font-size: 12px;
     }
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
+    .eg-pricing {
+        max-width: 70px;
+        height: 70px;
+        font-size: 8px;
+        top: 28px;
+        gap: 0;
+    }
 
-    .eg-pricing-container {
-        padding-top: 20px;
+    .eg-per-page>strong {
+        font-size: 10px;
+    }
+
+    header#header-img section.template_banner>.container {
+        margin-top: 30px;
     }
 }
