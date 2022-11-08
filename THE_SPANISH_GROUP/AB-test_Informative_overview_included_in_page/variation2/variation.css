@@ -1,0 +1,121 @@
+.eg-overview-container {
+    padding: 0 30px 30px;
+}
+
+.eg-overview-wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.eg-heading {
+    width: 30%;
+}
+
+.eg-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    background: #1f3d5c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.eg-callouts-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}
+
+.eg-callouts {
+    position: relative;
+    border: 2px solid #e1efff;
+    padding: 0 16px 16px 16px;
+    background: rgb(153 204 238 / 14%);
+    flex-basis: 46%;
+}
+
+.eg-callouts img {
+    width: 56px;
+    height: 56px;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.eg-callouts .eg-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 38px 0 8px 0;
+}
+
+.eg-callouts .eg-info {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.eg-callouts a svg {
+    width: 9px;
+    fill: #1f3d5c;
+    height: 9px;
+}
+
+.eg-callouts a {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    margin-block: 7px;
+    justify-content: flex-end;
+    gap: 5px;
+    color: #1f3d5c;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+
+.eg-callouts::before {
+    content: '';
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eg-overview-wrapper>.eg-heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 919px) {
+    .eg-callouts {
+        flex-basis: 100%;
+        max-width: 500px;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .eg-overview-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eg-heading ,.eg-callouts-container{
+        width: 100%;
+    }
+
+}
