@@ -8,7 +8,7 @@ section.black-friday div.hero__bg+div {
 
 section.black-friday .black-friday__logo {
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 section.black-friday .black-friday__logo>div {
@@ -48,35 +48,42 @@ section.black-friday {
 
 .eg-message p {
     margin-bottom: 0;
-    font-size: 14px !important;
-    margin-right: 10px;
+    font-size: 12.7px !important;
+    margin-right: 18px;
     line-height: 1.6;
 }
 
 section.black-friday .black-friday__logo>span {
-    font-size: 11px;
+    font-size: 10px;
     text-align: justify;
     margin-left: 8px;
+    line-height: 1;
 }
 
 section.black-friday .black-friday__logo>img {
     width: 33px;
+    margin-left: 0;
 }
 
 /* heading and paragraph */
 section.black-friday .black-friday__text>h2 {
-    font-size: 30px !important;
+    font-size: 29px !important;
     line-height: 1.3;
+    margin-top: 36px !important;
+    margin-bottom: 30px !important;
 }
 
-section.black-friday .black-friday__text>p:nth-child(1) {
-    font-size: 20px !important;
+section.black-friday .black-friday__text>h2 + p{
+    font-size: 18px!important;
 }
+
 
 
 /*buttons css*/
 section.black-friday div.black-friday__text .hero__btns a {
     border: none;
+    font-size: 15px;
+    padding: 11px 40px !important;
 }
 
 section.black-friday div.black-friday__text .hero__btns a:hover {
@@ -91,6 +98,7 @@ section.black-friday div.black-friday__text .hero__btns a:nth-child(1) {
 section.black-friday div.black-friday__text .hero__btns a:nth-child(2) {
     color: black;
     background: white;
+    font-weight: 600;
 }
 
 /*buttons css*/
@@ -98,7 +106,7 @@ section.black-friday div.black-friday__text .hero__btns a:nth-child(2) {
 /* logos css start */
 .eg-trust-logos {
     display: flex;
-    margin-block: 36px;
+    margin-block: 44px;
     flex-wrap: wrap;
     width: 100%;
     max-width: 1024px;
