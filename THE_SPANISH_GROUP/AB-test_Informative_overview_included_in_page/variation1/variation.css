@@ -1,3 +1,7 @@
+.eg-overview-container {
+    padding: 0 30px 30px;
+}
+
 .eg-overview-wrapper {
     width: 100%;
     max-width: 1170px;
@@ -22,9 +26,9 @@
 
 .eg-callouts {
     position: relative;
-    border: 2px solid #1f3d5c;
+    border: 2px solid #e1efff;
     padding: 0 16px 16px 16px;
-    border-radius: 5px;
+    background: rgb(153 204 238 / 14%);
 }
 
 .eg-callouts .eg-title {
@@ -45,7 +49,7 @@
 }
 
 .eg-callouts a {
-    font-size: 14px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     margin-block: 7px;
@@ -53,11 +57,9 @@
     gap: 5px;
     color: #1f3d5c;
     font-weight: 600;
+    letter-spacing: 0.4px;
 }
 
-section.eg-overview-container {
-    padding: 30px 16px;
-}
 
 .eg-callouts::before {
     content: '';
@@ -80,7 +82,7 @@ section.eg-overview-container {
 
 @media(max-width: 1099px) {
     .eg-callouts {
-        flex-basis: 40%;
+        flex-basis: 46%;
     }
 
     .eg-callouts-container {

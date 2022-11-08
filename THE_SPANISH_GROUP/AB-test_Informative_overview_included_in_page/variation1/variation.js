@@ -24,7 +24,7 @@
             }, delayTimeout);
         }
 
-        let egGreaterthanSvg = `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        let egGreaterthanSvg = `<svg aria-hidden="true" focusable="false" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                              width="103.536px" height="103.536px" viewBox="0 0 103.536 103.536" style="enable-background:new 0 0 103.536 103.536;"
                                              xml:space="preserve">
                                                 <path d="M0.65,91.928c1.221,2.701,3.881,4.3,6.665,4.3c1.006,0,2.029-0.209,3.006-0.65l88.917-40.195
@@ -37,30 +37,35 @@
             <div class="eg-overview-wrapper">
                 <h2 class="eg-heading">Top Services</h2>
                 <div class="eg-callouts-container">
+
+                    <!--Certified Translation-->
                     <div class="eg-callouts">
-                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-8.png">
+                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-8.png" alt="callout-icon">
                         <h3 class="eg-title">Certified Translation</h3>
                         <p class="eg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat massa, finibus ac velit nec, imperdiet consequat sapien. Mauris nec eleifend odio, nec euismod nunc. Duis et turpis vitae mauris.</p>
                         <a href="#">Learn more ${egGreaterthanSvg}</a>
                     </div>
 
+                    <!--Professional Translation-->
                     <div class="eg-callouts">
-                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-9.png">
+                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-9.png" alt="callout-icon">
                         <h3 class="eg-title">Professional Translation</h3>
                         <p class="eg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat massa, finibus ac velit nec, imperdiet consequat sapien. Mauris nec eleifend odio, nec euismod nunc. Duis et turpis vitae mauris.</p>
                         <a href="#">Learn more ${egGreaterthanSvg}</a>
                     </div>
 
+                    <!--Academic Translation-->
                     <div class="eg-callouts">
-                        <img src="https://thespanishgroup.org/translations/wp-content/themes/translations/img/global-icon.png">
-                        <h3 class="eg-title">90+ Languages Supported</h3>
+                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-7.png" alt="callout-icon">
+                        <h3 class="eg-title">Academic Translation</h3>
                         <p class="eg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat massa, finibus ac velit nec, imperdiet consequat sapien. Mauris nec eleifend odio, nec euismod nunc. Duis et turpis vitae mauris.</p>
                         <a href="#">Learn more ${egGreaterthanSvg}</a>
                     </div>
 
+                    <!--90+ Languages Supported-->
                     <div class="eg-callouts">
-                        <img src="https://thespanishgroup.org/wp-content/uploads/2020/08/Group-7.png">
-                        <h3 class="eg-title">Academic Translation</h3>
+                        <img src="https://thespanishgroup.org/translations/wp-content/themes/translations/img/global-icon.png" alt="callout-icon">
+                        <h3 class="eg-title">90+ Languages Supported</h3>
                         <p class="eg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat massa, finibus ac velit nec, imperdiet consequat sapien. Mauris nec eleifend odio, nec euismod nunc. Duis et turpis vitae mauris.</p>
                         <a href="#">Learn more ${egGreaterthanSvg}</a>
                     </div>
