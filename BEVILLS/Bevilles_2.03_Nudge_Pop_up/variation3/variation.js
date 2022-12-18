@@ -22,6 +22,20 @@
             }, delayTimeout);
         }
 
+
+        // timer block html
+        const egTimerHtml = `
+            <div class="s001-banner-wrapper">
+                <div class="s001-banner-data">
+                    <p class="eg-txt">Order within</p>
+                    <p><span class="whole-time-block"><span class="s001-timer-h"></span> Hours <span class="s001-timer-m"></span> Minutes <span class="s001-timer-s"></span> Seconds</p>
+                    <p class="eg-txt">to get your order dispatched next business day</p>
+                </div>
+            </div>`;
+
+        // variable for timer
+        var intervalFn;
+
         let egPopupTrigger;
 
         function live(selector, event, callback, context) {
@@ -58,27 +72,6 @@
             }
             live(selector, event, callback, context);
         }
-
-
-        // timer block html
-        const egTimerHtml = `
-            <div class="s001-banner-wrapper">
-                <div class="s001-banner-data">
-                    <p class="eg-txt">Order within</p>
-                    <p><span class="whole-time-block"><span class="s001-timer-h"></span> Hours <span class="s001-timer-m"></span> Minutes <span class="s001-timer-s"></span> Seconds</p>
-                    <p class="eg-txt">to get your order dispatched next business day</p>
-                </div>
-            </div>`;
-
-        // variable for timer
-        var intervalFn;
-
-
-        live(['.eg-close-icon', '.eg-continue'], 'click', function() {
-            document.querySelector(".eg-popup-main").style.display = "none";
-            clearTimeout(egPopupTrigger);
-            popupShowInterval();
-        });
 
         /* Variation Init */
         function init() {
@@ -129,17 +122,10 @@
                     const response = xhr.responseText;
                     const ele = document.createElement("div");
                     ele.innerHTML = response;
-                    const cartItem1 = ele.querySelector("#cartform  .cart-items li:nth-child(2)");
-                    let egItemImgSrc = cartItem1.querySelector(".image img").src;
-                    let egItemPrice = cartItem1.querySelector(".item-price").textContent;
+                    const cartItems = ele.querySelectorAll("#cartform  .cart-items li:nth-child(n + 2)");
 
-                    // item link element
-                    let egLinkEle = cartItem1.querySelector("a[title]");
-                    let egItemName = egLinkEle.textContent;
-                    let egItemLink = egLinkEle.href;
-
-                    createPopUp(egItemPrice, egItemLink, egItemName, egItemImgSrc);
-                    console.log(egItemImgSrc, egItemName, egItemPrice);
+                    let egItems = itemsList(cartItems);
+                    createPopUp(egItems);
                 } else {
                     console.log("Something went wrong");
                 }
@@ -149,9 +135,9 @@
             xhr.send();
         }
 
-        function createPopUp(egItemPrice, egItemLink, egItemName, egItemImgSrc) {
+        function createPopUp(egItems) {
             // popup html 
-            console.log(egItemLink);
+
             const egPopupHTML = `
                             <!-- overlay div -->
                             <div class="eg-popup-main">
@@ -182,25 +168,7 @@
                                                         <div class="eg-confirmation-text">Would you like to complete your order?
                                                         </div>
                                                     </div>
-                                                    <div class="tabel-list eg-tabel-list">
-                                                        <!-- fast dispatch block -->
-                                                        <div class="eg-fast-dispatch">
-                                                            
-                                                            <div class="eg-show-item">
-                                                                <!-- item image -->
-                                                                <div class='eg-show-item-img'>
-                                                                    <img src="${egItemImgSrc}" alt="item-in-popup" border="0">
-                                                                    <a class="close-box more-link eg-dispatch-link">Fast Dispatch</a>
-                                                                </div>
-                                                            <!-- item name and price -->
-                                                                <div class='eg-show-item-details'>
-                                                                    <p class="eg-name">${egItemName}</p>
-                                                                    <p class='eg-price'><strong>${egItemPrice}</strong></p>
-                                                                </div>
-                                                            </div>
-
-                                                            <a href="${egItemLink}" class="eg-item-link" hidden></a>
-                                                        </div>
+                                                        ${egItems}
                                                         ${egTimerHtml}
                                                         <div class="added-notice__checkout eg-checkout"><a class="button" href="/cart">View Cart and Checkout</a></div>
                                                         <div class="added-notice__continue eg-continue"><a class="close-box more-link" href="#">Continue shopping</a></div>
@@ -216,15 +184,26 @@
 
             document.body.insertAdjacentHTML("afterbegin", egPopupHTML);
 
-            checkFastDelevery();
+            // checkfast delevery
+            setTimeout(() => {
+                checkFastDelevery();
+            }, 2);
 
         }
 
-        function checkFastDelevery() {
-            let egLink = document.querySelector(".eg-item-link");
-            console.log(egLink.href)
-            getFastDeleveryInfo(egLink)
+        live(['.eg-close-icon', '.eg-continue'], 'click', function() {
+            document.querySelector(".eg-popup-main").style.display = "none";
+            clearTimeout(egPopupTrigger);
+            popupShowInterval();
+        });
 
+
+        function checkFastDelevery() {
+            let egLinks = document.querySelectorAll(".eg-item-link");
+
+            for (link of egLinks) {
+                getFastDeleveryInfo(link)
+            }
         }
 
         function getFastDeleveryInfo(link) {
@@ -236,6 +215,7 @@
                     ele.innerHTML = response;
                     if (ele.querySelector(".fast-delivery")) {
                         link.parentElement.querySelector(".eg-dispatch-link").style.display = "flex";
+
                         // timer function will only show if there is at least one product which has fast dispatch
                         document.querySelector(".s001-banner-wrapper").style.display = "block";
                         timerfn();
@@ -247,6 +227,36 @@
 
             xhr.open("GET", link.href);
             xhr.send();
+        }
+
+
+        function itemsList(cartItems) {
+
+            let egHtml = '<ul class="eg-items-lists">';
+
+            cartItems.forEach(cItm => {
+                egHtml += `<div class="eg-fast-dispatch">
+                                                            
+                                                            <div class="eg-show-item">
+                                                                <!-- item image -->
+                                                                <div class="eg-show-item-img">
+                                                                    <img src="${cItm.querySelector('.image img').src}" alt="item-in-popup" border="0">
+                                                                </div>
+                                                            <!-- item name and price -->
+                                                                <div class="eg-show-item-details">
+                                                                    <p class="eg-name">${cItm.querySelector("a[title]").textContent}</p>
+                                                                    <p class="eg-price"><strong>${cItm.querySelector('.item-price').textContent}</strong>
+                                                                        <span class="eg-dispatch-link-wrapper"><a class="close-box more-link eg-dispatch-link">Fast Dispatch</a></span>
+                                                                    </p>
+                                                                    
+                                                                </div>
+                                                                <a href="${cItm.querySelector('a[title]').href}" class="eg-item-link" hidden></a>
+                                                            </div>
+                                                        </div>`;
+            });
+
+            egHtml += "</ul>";
+            return egHtml;
         }
 
         // timer function
