@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#container-to-scroll > div:nth-child(2) > div > div:has(.l-wizard-section__container){
+    cursor: pointer;
+}
+
+
+.eg-inactive-section{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.l-wizard-section:has(.eg-inactive-section){
+    padding-left: 1.8rem !important;
+}

@@ -1,0 +1,146 @@
+/*already exists caraousel*/
+.KC-block-wrapper,
+.services-block-wrapper,
+.KC-block-wrapper {
+    background: #fff !important;
+}
+
+/*already exists caraousel*/
+
+.carousel-wrapper {
+    padding-top: 30px;
+    padding-inline: 8%;
+}
+
+.carousel {
+    height: 340px !important;
+    padding-top: 0;
+}
+
+li#carousel__slide3 {
+    order: 4;
+}
+
+/*hiding big left right buttons*/
+.carousel::before,
+.carousel::after {
+    display: none;
+}
+
+.eg-image-desc {
+    display: block !important;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.carousel .hp-grid-child>* {
+    display: none;
+}
+
+.carousel .hp-grid-parent {
+    display: flex !important;
+    flex-direction: column;
+    padding: 0;
+}
+
+.carousel-icon {
+    order: -1;
+    margin-top: 0;
+}
+
+.carousel-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+
+@media(min-width:768px) {
+    .carousel__viewport {
+        justify-content:
+            center;
+        height: max-content;
+        gap: 16px;
+    }
+
+    .carousel__slide {
+        flex: 1;
+        width:
+            auto;
+        height: max-content;
+    }
+
+    /*hiding navigation dots*/
+    .carousel__navigation {
+        display: none;
+    }
+
+    .carousel .hp-grid-child {
+        margin-inline: 0 !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*carousel*/
+    .carousel-wrapper .carousel__viewport {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .carousel-wrapper .carousel__viewport>li {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        scale: 1;
+        transform-origin: right;
+        transition: all 0.5s;
+
+    }
+
+    .carousel-wrapper .carousel__viewport>li:not(.eg-active-carousel) {
+        z-index: -9999;
+        scale: 0;
+    }
+
+    .eg-active-button {
+        scale: 1.25;
+        margin-inline: 4px;
+        transition: scale 0.5s;
+    }
+
+    /*showing navigation dots*/
+    .carousel__navigation {
+        display: block;
+        visibility: visible;
+    }
+
+    .heading-container.universal-wrapper {
+        padding-top: 80px;
+    }
+
+    .carousel {
+        height: 295px !important;
+    }
+
+    .carousel li.carousel__navigation-item+li {
+        margin-left: 6px;
+    }
+
+    .header-wrapper {
+        background: url(https://www.equifax.co.uk/bubble/images/equifax-member-centre-blend.jpg) !important;
+        background-position: left !important;
+
+    }
+
+    .heading-content {
+        background: none;
+    }
+
+    h1.title,
+    .heading-content p {
+        color: #fff !important;
+    }
+
+    div.header-wrapper>div.heading-container.universal-wrapper>div.wave-layer-M>img {
+        display: none;
+    }
+}
