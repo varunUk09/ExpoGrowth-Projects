@@ -22,6 +22,7 @@
             }, delayTimeout);
         }
 
+
         function live(selector, event, callback, context) {
             /****Helper Functions****/
             // helper for enabling IE 8 event bindings
@@ -61,7 +62,7 @@
         function init() {
             /* start your code here */
 
-            window.addEventListener('DOMContentLoaded', (event) => {
+            document.addEventListener('DOMContentLoaded', (event) => {
                 if (window.innerWidth < 501) {
                     // logic for swiper
                     document.querySelectorAll("html body #toSort .offices-list-item-images").forEach(imageBox => {
@@ -150,7 +151,6 @@
 
             // adding current class to target image
             ele.parentElement.previousElementSibling.querySelector(`.offices-list-item-images img.offices-list-item-image:nth-of-type(${num})`).classList.add('eg-current-img');
-
         }
 
         // removes active class
